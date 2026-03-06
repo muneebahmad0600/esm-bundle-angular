@@ -80,6 +80,16 @@ export const angularPackages = [
   // ########################################################################
   // @angular/core
   {
+    name: '@angular/core/primitives/di',
+    input: join(
+      nodeModulesPath,
+      `@angular/core/fesm2022/primitives/di.mjs`,
+    ),
+    outputFile: 'angular-core-primitives-di',
+    packageJson: require('@angular/core/package.json'),
+    external: ['rxjs', 'rxjs/operators'],
+  },
+  {
     name: '@angular/core/primitives/event-dispatch',
     input: join(
       nodeModulesPath,
@@ -107,6 +117,7 @@ export const angularPackages = [
     external: [
       'rxjs',
       'rxjs/operators',
+      '@angular/core/primitives/di',
       '@angular/core/primitives/event-dispatch',
       '@angular/core/primitives/signals',
     ],
