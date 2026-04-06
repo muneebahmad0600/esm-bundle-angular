@@ -1,10 +1,10 @@
-/* esm-bundle - @angular/upgrade/static@19.2.19 - es format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
+/* esm-bundle - @angular/upgrade/static@19.2.20 - es format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
 import * as i0 from '@angular/core';
 import { Version, ɵNG_MOD_DEF as _NG_MOD_DEF, NgZone, ComponentFactoryResolver, Injector, ChangeDetectorRef, Testability, TestabilityRegistry, ApplicationRef, SimpleChange, ɵSIGNAL as _SIGNAL, EventEmitter, Directive, NgModule, ɵNOT_FOUND_CHECK_ONLY_ELEMENT_INJECTOR as _NOT_FOUND_CHECK_ONLY_ELEMENT_INJECTOR, PlatformRef } from '@angular/core';
 import { platformBrowser } from '@angular/platform-browser';
 
 /**
- * @license Angular v19.2.19
+ * @license Angular v19.2.20
  * (c) 2010-2025 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -141,7 +141,7 @@ var constants = /*#__PURE__*/Object.freeze({
 });
 
 /**
- * @license Angular v19.2.19
+ * @license Angular v19.2.20
  * (c) 2010-2025 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -155,7 +155,7 @@ var constants = /*#__PURE__*/Object.freeze({
 /**
  * @publicApi
  */
-const VERSION = new Version('19.2.19');
+const VERSION = new Version('19.2.20');
 
 /**
  * A `PropertyBinding` represents a mapping between a property name
@@ -1205,7 +1205,7 @@ var upgrade_helper = /*#__PURE__*/Object.freeze({
 });
 
 /**
- * @license Angular v19.2.19
+ * @license Angular v19.2.20
  * (c) 2010-2025 Google LLC. https://angular.io/
  * License: MIT
  */

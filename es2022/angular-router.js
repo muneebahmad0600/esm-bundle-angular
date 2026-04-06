@@ -1,4 +1,4 @@
-/* esm-bundle - @angular/router@19.2.19 - es format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
+/* esm-bundle - @angular/router@19.2.20 - es format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
 import * as i3 from '@angular/common';
 import { Location, DOCUMENT, ViewportScroller, HashLocationStrategy, LocationStrategy, PathLocationStrategy, LOCATION_INITIALIZED } from '@angular/common';
 import * as i0 from '@angular/core';
@@ -8,7 +8,7 @@ import { switchMap, map, tap, finalize, refCount, mergeMap, filter, take, takeUn
 import * as i1 from '@angular/platform-browser';
 
 /**
- * @license Angular v19.2.19
+ * @license Angular v19.2.20
  * (c) 2010-2025 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -6037,7 +6037,7 @@ function isPublicRouterEvent(e) {
 }
 
 /**
- * @license Angular v19.2.19
+ * @license Angular v19.2.20
  * (c) 2010-2025 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -7800,7 +7800,7 @@ function provideRouterInitializer() {
 }
 
 /**
- * @license Angular v19.2.19
+ * @license Angular v19.2.20
  * (c) 2010-2025 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -7875,7 +7875,7 @@ function mapToResolve(provider) {
 /**
  * @publicApi
  */
-const VERSION = new Version('19.2.19');
+const VERSION = new Version('19.2.20');
 
 export { ActivatedRoute, ActivatedRouteSnapshot, ActivationEnd, ActivationStart, BaseRouteReuseStrategy, ChildActivationEnd, ChildActivationStart, ChildrenOutletContexts, DefaultTitleStrategy, DefaultUrlSerializer, EventType, GuardsCheckEnd, GuardsCheckStart, NavigationCancel, NavigationCancellationCode, NavigationEnd, NavigationError, NavigationSkipped, NavigationSkippedCode, NavigationStart, NoPreloading, OutletContext, PRIMARY_OUTLET, PreloadAllModules, PreloadingStrategy, ROUTER_CONFIGURATION, ROUTER_INITIALIZER, ROUTER_OUTLET_DATA, ROUTES, RedirectCommand, ResolveEnd, ResolveStart, RouteConfigLoadEnd, RouteConfigLoadStart, RouteReuseStrategy, Router, RouterEvent, RouterLink, RouterLinkActive, RouterLink as RouterLinkWithHref, RouterModule, RouterOutlet, RouterPreloader, RouterState, RouterStateSnapshot, RoutesRecognized, Scroll, TitleStrategy, UrlHandlingStrategy, UrlSegment, UrlSegmentGroup, UrlSerializer, UrlTree, VERSION, convertToParamMap, createUrlTreeFromSnapshot, defaultUrlMatcher, mapToCanActivate, mapToCanActivateChild, mapToCanDeactivate, mapToCanMatch, mapToResolve, provideRouter, provideRoutes, withComponentInputBinding, withDebugTracing, withDisabledInitialNavigation, withEnabledBlockingInitialNavigation, withHashLocation, withInMemoryScrolling, withNavigationErrorHandler, withPreloading, withRouterConfig, withViewTransitions, ɵEmptyOutletComponent, ROUTER_PROVIDERS as ɵROUTER_PROVIDERS, afterNextNavigation as ɵafterNextNavigation, loadChildren as ɵloadChildren };
 //# sourceMappingURL=angular-router.js.map

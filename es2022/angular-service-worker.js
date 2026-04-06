@@ -1,11 +1,11 @@
-/* esm-bundle - @angular/service-worker@19.2.19 - es format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
+/* esm-bundle - @angular/service-worker@19.2.20 - es format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
 import * as i0 from '@angular/core';
 import { Injectable, ɵRuntimeError as _RuntimeError, InjectionToken, NgModule, ApplicationRef, makeEnvironmentProviders, Injector, provideAppInitializer, inject, NgZone, ɵformatRuntimeError as _formatRuntimeError } from '@angular/core';
 import { Subject, NEVER, Observable } from 'rxjs';
 import { map, switchMap, take, filter } from 'rxjs/operators';
 
 /**
- * @license Angular v19.2.19
+ * @license Angular v19.2.20
  * (c) 2010-2025 Google LLC. https://angular.io/
  * License: MIT
  */

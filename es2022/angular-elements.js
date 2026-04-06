@@ -1,10 +1,10 @@
-/* esm-bundle - @angular/elements@19.2.19 - es format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
+/* esm-bundle - @angular/elements@19.2.20 - es format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
 import { Version, ComponentFactoryResolver, NgZone, ApplicationRef, ɵChangeDetectionScheduler as _ChangeDetectionScheduler, ɵisViewDirty as _isViewDirty, ɵmarkForRefresh as _markForRefresh, Injector } from '@angular/core';
 import { ReplaySubject, merge, Observable } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
 
 /**
- * @license Angular v19.2.19
+ * @license Angular v19.2.20
  * (c) 2010-2025 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -425,7 +425,7 @@ function createCustomElement(component, config) {
 /**
  * @publicApi
  */
-const VERSION = new Version('19.2.19');
+const VERSION = new Version('19.2.20');
 
 export { NgElement, VERSION, createCustomElement };
 //# sourceMappingURL=angular-elements.js.map

@@ -1,4 +1,4 @@
-/* esm-bundle - @angular/platform-browser-dynamic@19.2.19 - system format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
+/* esm-bundle - @angular/platform-browser-dynamic@19.2.20 - system format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
 System.register(['@angular/core', '@angular/compiler', '@angular/platform-browser'], (function (exports) {
     'use strict';
     var Version, i0, Injectable, createPlatformFactory, COMPILER_OPTIONS, CompilerFactory, ViewEncapsulation, Injector, Compiler, ResourceLoader, CompilerConfig, platformBrowser;
@@ -22,7 +22,7 @@ System.register(['@angular/core', '@angular/compiler', '@angular/platform-browse
         execute: (function () {
 
             /**
-             * @license Angular v19.2.19
+             * @license Angular v19.2.20
              * (c) 2010-2025 Google LLC. https://angular.io/
              * License: MIT
              */
@@ -36,7 +36,7 @@ System.register(['@angular/core', '@angular/compiler', '@angular/platform-browse
             /**
              * @publicApi
              */
-            const VERSION = exports("VERSION", new Version('19.2.19'));
+            const VERSION = exports("VERSION", new Version('19.2.20'));
             const COMPILER_PROVIDERS = [{
               provide: Compiler,
               useFactory: () => new Compiler()

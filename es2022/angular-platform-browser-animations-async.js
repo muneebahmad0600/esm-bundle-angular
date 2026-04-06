@@ -1,10 +1,10 @@
-/* esm-bundle - @angular/platform-browser/animations/async@19.2.19 - es format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
+/* esm-bundle - @angular/platform-browser/animations/async@19.2.20 - es format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
 import { isPlatformServer, DOCUMENT, ɵgetDOM as _getDOM } from '@angular/common';
 import * as i0 from '@angular/core';
 import { InjectionToken, ɵRuntimeError as _RuntimeError, Injectable, Inject, APP_ID, CSP_NONCE, PLATFORM_ID, Optional, ViewEncapsulation, ɵTracingService as _TracingService, RendererStyleFlags2, inject, Injector, ɵChangeDetectionScheduler as _ChangeDetectionScheduler, ɵperformanceMarkFeature as _performanceMarkFeature, makeEnvironmentProviders, NgZone, RendererFactory2, ANIMATION_MODULE_TYPE } from '@angular/core';
 
 /**
- * @license Angular v19.2.19
+ * @license Angular v19.2.20
  * (c) 2010-2025 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -822,7 +822,7 @@ class EmulatedEncapsulationDomRenderer2 extends NoneEncapsulationDomRenderer {
 }
 
 /**
- * @license Angular v19.2.19
+ * @license Angular v19.2.20
  * (c) 2010-2025 Google LLC. https://angular.io/
  * License: MIT
  */

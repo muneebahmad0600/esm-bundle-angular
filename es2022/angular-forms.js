@@ -1,4 +1,4 @@
-/* esm-bundle - @angular/forms@19.2.19 - es format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
+/* esm-bundle - @angular/forms@19.2.20 - es format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
 import * as i0 from '@angular/core';
 import { Directive, InjectionToken, forwardRef, Optional, Inject, Self, untracked, computed, signal, EventEmitter, Input, Host, SkipSelf, booleanAttribute, ChangeDetectorRef, Output, Injectable, inject, ɵRuntimeError as _RuntimeError, NgModule, Version, ɵisPromise as _isPromise, ɵisSubscribable as _isSubscribable } from '@angular/core';
 import { ɵgetDOM as _getDOM } from '@angular/common';
@@ -6,7 +6,7 @@ import { Subject, forkJoin, from } from 'rxjs';
 import { map } from 'rxjs/operators';
 
 /**
- * @license Angular v19.2.19
+ * @license Angular v19.2.20
  * (c) 2010-2025 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -8334,7 +8334,7 @@ class UntypedFormBuilder extends FormBuilder {
 /**
  * @publicApi
  */
-const VERSION = new Version('19.2.19');
+const VERSION = new Version('19.2.20');
 
 /**
  * Exports the required providers and directives for template-driven forms,

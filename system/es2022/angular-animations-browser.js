@@ -1,4 +1,4 @@
-/* esm-bundle - @angular/animations/browser@19.2.19 - system format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
+/* esm-bundle - @angular/animations/browser@19.2.20 - system format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
 System.register(['@angular/core'], (function (exports) {
     'use strict';
     var _RuntimeError, i0, Injectable;
@@ -23,7 +23,7 @@ System.register(['@angular/core'], (function (exports) {
             });
 
             /**
-             * @license Angular v19.2.19
+             * @license Angular v19.2.20
              * (c) 2010-2025 Google LLC. https://angular.io/
              * License: MIT
              */
@@ -437,7 +437,7 @@ System.register(['@angular/core'], (function (exports) {
             const ɵPRE_STYLE = '!';
 
             /**
-             * @license Angular v19.2.19
+             * @license Angular v19.2.20
              * (c) 2010-2025 Google LLC. https://angular.io/
              * License: MIT
              */
@@ -915,7 +915,7 @@ System.register(['@angular/core'], (function (exports) {
             }
 
             /**
-             * @license Angular v19.2.19
+             * @license Angular v19.2.20
              * (c) 2010-2025 Google LLC. https://angular.io/
              * License: MIT
              */

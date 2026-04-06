@@ -1,4 +1,4 @@
-/* esm-bundle - @angular/service-worker@19.2.19 - system format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
+/* esm-bundle - @angular/service-worker@19.2.20 - system format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
 System.register(['@angular/core', 'rxjs', 'rxjs/operators'], (function (exports) {
     'use strict';
     var i0, Injectable, _RuntimeError, InjectionToken, NgModule, ApplicationRef, makeEnvironmentProviders, Injector, provideAppInitializer, inject, NgZone, _formatRuntimeError, Subject, NEVER, Observable, map, switchMap, take, filter;
@@ -31,7 +31,7 @@ System.register(['@angular/core', 'rxjs', 'rxjs/operators'], (function (exports)
             exports("provideServiceWorker", provideServiceWorker);
 
             /**
-             * @license Angular v19.2.19
+             * @license Angular v19.2.20
              * (c) 2010-2025 Google LLC. https://angular.io/
              * License: MIT
              */

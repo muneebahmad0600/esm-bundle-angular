@@ -1,4 +1,4 @@
-/* esm-bundle - @angular/forms@19.2.19 - system format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
+/* esm-bundle - @angular/forms@19.2.20 - system format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
 System.register(['@angular/core', '@angular/common', 'rxjs', 'rxjs/operators'], (function (exports) {
   'use strict';
   var i0, Directive, InjectionToken, forwardRef, Optional, Inject, Self, untracked, computed, signal, EventEmitter, Input, Host, SkipSelf, booleanAttribute, ChangeDetectorRef, Output, Injectable, inject, _RuntimeError, NgModule, Version, _isPromise, _isSubscribable, _getDOM, Subject, forkJoin, from, map;
@@ -40,7 +40,7 @@ System.register(['@angular/core', '@angular/common', 'rxjs', 'rxjs/operators'], 
     execute: (function () {
 
       /**
-       * @license Angular v19.2.19
+       * @license Angular v19.2.20
        * (c) 2010-2025 Google LLC. https://angular.io/
        * License: MIT
        */
@@ -8368,7 +8368,7 @@ System.register(['@angular/core', '@angular/common', 'rxjs', 'rxjs/operators'], 
       /**
        * @publicApi
        */
-      const VERSION = exports("VERSION", new Version('19.2.19'));
+      const VERSION = exports("VERSION", new Version('19.2.20'));
 
       /**
        * Exports the required providers and directives for template-driven forms,

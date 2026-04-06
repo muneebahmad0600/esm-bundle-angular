@@ -1,4 +1,4 @@
-/* esm-bundle - @angular/common@19.2.19 - system format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
+/* esm-bundle - @angular/common@19.2.20 - system format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
 System.register(['@angular/core', 'rxjs'], (function (exports) {
     'use strict';
     var InjectionToken, i0, inject, Injectable, Optional, Inject, __inject, LOCALE_ID, _stringify, Directive, Input, createNgModule, NgModuleRef, _RuntimeError, Host, Attribute, RendererStyleFlags2, _isPromise, _isSubscribable, Pipe, DEFAULT_CURRENCY_CODE, NgModule, _getLocalePluralCase, untracked, _findLocaleData, _LocaleDataIndex, _getLocaleCurrencyCode, Version, __defineInjectable, PLATFORM_ID, _formatRuntimeError, _IMAGE_CONFIG, Renderer2, ElementRef, Injector, DestroyRef, _performanceMarkFeature, NgZone, ApplicationRef, booleanAttribute, numberAttribute, _IMAGE_CONFIG_DEFAULTS, _unwrapSafeValue, ChangeDetectorRef, _registerLocaleData, Subject;
@@ -91,7 +91,7 @@ System.register(['@angular/core', 'rxjs'], (function (exports) {
             });
 
             /**
-             * @license Angular v19.2.19
+             * @license Angular v19.2.20
              * (c) 2010-2025 Google LLC. https://angular.io/
              * License: MIT
              */
@@ -107,7 +107,7 @@ System.register(['@angular/core', 'rxjs'], (function (exports) {
             const DOCUMENT = exports("DOCUMENT", new InjectionToken(ngDevMode ? 'DocumentToken' : ''));
 
             /**
-             * @license Angular v19.2.19
+             * @license Angular v19.2.20
              * (c) 2010-2025 Google LLC. https://angular.io/
              * License: MIT
              */
@@ -786,7 +786,7 @@ System.register(['@angular/core', 'rxjs'], (function (exports) {
             }
 
             /**
-             * @license Angular v19.2.19
+             * @license Angular v19.2.20
              * (c) 2010-2025 Google LLC. https://angular.io/
              * License: MIT
              */
@@ -5760,7 +5760,7 @@ System.register(['@angular/core', 'rxjs'], (function (exports) {
             })();
 
             /**
-             * @license Angular v19.2.19
+             * @license Angular v19.2.20
              * (c) 2010-2025 Google LLC. https://angular.io/
              * License: MIT
              */
@@ -5801,7 +5801,7 @@ System.register(['@angular/core', 'rxjs'], (function (exports) {
             class XhrFactory {} exports("XhrFactory", XhrFactory);
 
             /**
-             * @license Angular v19.2.19
+             * @license Angular v19.2.20
              * (c) 2010-2025 Google LLC. https://angular.io/
              * License: MIT
              */
@@ -5832,7 +5832,7 @@ System.register(['@angular/core', 'rxjs'], (function (exports) {
             })();
 
             /**
-             * @license Angular v19.2.19
+             * @license Angular v19.2.20
              * (c) 2010-2025 Google LLC. https://angular.io/
              * License: MIT
              */
@@ -5859,7 +5859,7 @@ System.register(['@angular/core', 'rxjs'], (function (exports) {
             /**
              * @publicApi
              */
-            const VERSION = exports("VERSION", new Version('19.2.19'));
+            const VERSION = exports("VERSION", new Version('19.2.20'));
 
             /**
              * Defines a scroll position manager. Implemented by `BrowserViewportScroller`.

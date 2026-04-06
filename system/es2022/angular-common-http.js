@@ -1,4 +1,4 @@
-/* esm-bundle - @angular/common/http@19.2.19 - system format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
+/* esm-bundle - @angular/common/http@19.2.20 - system format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
 System.register(['@angular/core', 'rxjs/operators', 'rxjs'], (function (exports) {
     'use strict';
     var InjectionToken, _RuntimeError, i0, Injectable, inject, NgZone, DestroyRef, _PendingTasksInternal, PLATFORM_ID, _Console, _formatRuntimeError, Inject, runInInjectionContext, NgModule, makeEnvironmentProviders, assertInInjectionContext, Injector, _ResourceImpl, linkedSignal, computed, ResourceStatus, signal, APP_BOOTSTRAP_LISTENER, _performanceMarkFeature, ApplicationRef, TransferState, makeStateKey, _truncateMiddle, concatMap, filter, map, finalize, switchMap, tap, of, Observable, from;
@@ -59,7 +59,7 @@ System.register(['@angular/core', 'rxjs/operators', 'rxjs'], (function (exports)
             });
 
             /**
-             * @license Angular v19.2.19
+             * @license Angular v19.2.20
              * (c) 2010-2025 Google LLC. https://angular.io/
              * License: MIT
              */
@@ -92,7 +92,7 @@ System.register(['@angular/core', 'rxjs/operators', 'rxjs'], (function (exports)
             class XhrFactory {}
 
             /**
-             * @license Angular v19.2.19
+             * @license Angular v19.2.20
              * (c) 2010-2025 Google LLC. https://angular.io/
              * License: MIT
              */
@@ -108,7 +108,7 @@ System.register(['@angular/core', 'rxjs/operators', 'rxjs'], (function (exports)
             const DOCUMENT = new InjectionToken(ngDevMode ? 'DocumentToken' : '');
 
             /**
-             * @license Angular v19.2.19
+             * @license Angular v19.2.20
              * (c) 2010-2025 Google LLC. https://angular.io/
              * License: MIT
              */
@@ -3162,7 +3162,7 @@ System.register(['@angular/core', 'rxjs/operators', 'rxjs'], (function (exports)
             })();
 
             /**
-             * @license Angular v19.2.19
+             * @license Angular v19.2.20
              * (c) 2010-2025 Google LLC. https://angular.io/
              * License: MIT
              */

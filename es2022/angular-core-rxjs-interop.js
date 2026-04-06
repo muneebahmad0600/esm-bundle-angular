@@ -1,10 +1,10 @@
-/* esm-bundle - @angular/core/rxjs-interop@19.2.19 - es format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
+/* esm-bundle - @angular/core/rxjs-interop@19.2.20 - es format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
 import { assertInInjectionContext, inject, DestroyRef, ɵgetOutputDestroyRef as _getOutputDestroyRef, Injector, effect, untracked, ɵmicrotaskEffect as _microtaskEffect, assertNotInReactiveContext, signal, ɵRuntimeError as _RuntimeError, computed, PendingTasks, resource } from '@angular/core';
 import { Observable, ReplaySubject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 
 /**
- * @license Angular v19.2.19
+ * @license Angular v19.2.20
  * (c) 2010-2025 Google LLC. https://angular.io/
  * License: MIT
  */

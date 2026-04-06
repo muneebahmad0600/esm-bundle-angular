@@ -1,4 +1,4 @@
-/* esm-bundle - @angular/platform-browser@19.2.19 - system format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
+/* esm-bundle - @angular/platform-browser@19.2.20 - system format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
 System.register(['@angular/common', '@angular/core', '@angular/common/http'], (function (exports) {
   'use strict';
   var isPlatformServer, DOCUMENT, _getDOM, _PLATFORM_BROWSER_ID, XhrFactory, CommonModule, _DomAdapter, _setRootDomAdapter, _parseCookieValue, InjectionToken, _RuntimeError, i0, Injectable, Inject, APP_ID, CSP_NONCE, PLATFORM_ID, Optional, ViewEncapsulation, _TracingService, RendererStyleFlags2, createPlatformFactory, platformCore, PLATFORM_INITIALIZER, _INJECTOR_SCOPE, ErrorHandler, RendererFactory2, inject, ApplicationModule, _TESTABILITY_GETTER, NgZone, TestabilityRegistry, Testability, _TESTABILITY, NgModule, _setDocument, _global, _internalCreateApplication, _Console, Injector, forwardRef, _XSS_SECURITY_URL, SecurityContext, _allowSanitizationBypassAndThrow, _unwrapSafeValue, __sanitizeUrl, __sanitizeHtml, _bypassSanitizationTrustHtml, _bypassSanitizationTrustStyle, _bypassSanitizationTrustScript, _bypassSanitizationTrustUrl, _bypassSanitizationTrustResourceUrl, Version, makeEnvironmentProviders, _withDomHydration, _withEventReplay, _withI18nSupport, _withIncrementalHydration, ApplicationRef, ENVIRONMENT_INITIALIZER, _ZONELESS_ENABLED, _formatRuntimeError, _withHttpTransferCache;
@@ -88,7 +88,7 @@ System.register(['@angular/common', '@angular/core', '@angular/common/http'], (f
       });
 
       /**
-       * @license Angular v19.2.19
+       * @license Angular v19.2.20
        * (c) 2010-2025 Google LLC. https://angular.io/
        * License: MIT
        */
@@ -923,7 +923,7 @@ System.register(['@angular/common', '@angular/core', '@angular/common/http'], (f
       }
 
       /**
-       * @license Angular v19.2.19
+       * @license Angular v19.2.20
        * (c) 2010-2025 Google LLC. https://angular.io/
        * License: MIT
        */
@@ -1512,7 +1512,7 @@ System.register(['@angular/common', '@angular/core', '@angular/common/http'], (f
       })();
 
       /**
-       * @license Angular v19.2.19
+       * @license Angular v19.2.20
        * (c) 2010-2025 Google LLC. https://angular.io/
        * License: MIT
        */
@@ -2531,7 +2531,7 @@ System.register(['@angular/common', '@angular/core', '@angular/common/http'], (f
       /**
        * @publicApi
        */
-      const VERSION = exports("VERSION", new Version('19.2.19'));
+      const VERSION = exports("VERSION", new Version('19.2.20'));
 
     })
   };

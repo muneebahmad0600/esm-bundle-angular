@@ -1,11 +1,11 @@
-/* esm-bundle - @angular/core@19.2.19 - es format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
+/* esm-bundle - @angular/core@19.2.20 - es format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
 import { setActiveConsumer as setActiveConsumer$1, createWatch } from '@angular/core/primitives/signals';
 import { NOT_FOUND as NOT_FOUND$2 } from '@angular/core/primitives/di';
 import { BehaviorSubject, Subject, Subscription } from 'rxjs';
 import { map } from 'rxjs/operators';
 
 /**
- * @license Angular v19.2.19
+ * @license Angular v19.2.20
  * (c) 2010-2025 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -563,7 +563,7 @@ function untracked$1(nonReactiveReadsFn) {
 }
 
 /**
- * @license Angular v19.2.19
+ * @license Angular v19.2.20
  * (c) 2010-2025 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -591,7 +591,7 @@ function setCurrentInjector(injector) {
 const NOT_FOUND$1 = Symbol('NotFound');
 
 /**
- * @license Angular v19.2.19
+ * @license Angular v19.2.20
  * (c) 2010-2025 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -6012,6 +6012,10 @@ const VALID_ATTRS=merge(URI_ATTRS,HTML_ATTRS,ARIA_ATTRS);// Elements whose conte
 // `Some content`, but strip `invalid-element` opening/closing tags. For some elements, though, we
 // don't want to preserve the content, if the elements themselves are going to be removed.
 const SKIP_TRAVERSING_CONTENT_IF_INVALID_ELEMENTS=tagSet('script,style,template');/**
+ * Attributes that are potential attach vectors and may need to be sanitized.
+ */const SENSITIVE_ATTRS=merge(URI_ATTRS,// Note: we don't include these attributes in `URI_ATTRS`, because `URI_ATTRS` also
+// determines whether an attribute should be dropped when sanitizing an HTML string.
+tagSet('action,formaction,data,codebase'));/**
  * SanitizingHtmlSerializer serializes a DOM fragment, stripping out any unsafe elements and unsafe
  * attributes.
  */class SanitizingHtmlSerializer{// Explicitly track if something was stripped, to avoid accidentally warning of sanitization just
@@ -8348,7 +8352,7 @@ const tagName=(componentDef.selectors[0][0]||'div').toLowerCase();const namespac
  */class ComponentFactory extends ComponentFactory$1{componentDef;ngModule;selector;componentType;ngContentSelectors;isBoundToModule;cachedInputs=null;cachedOutputs=null;get inputs(){this.cachedInputs??=toInputRefArray(this.componentDef.inputs);return this.cachedInputs;}get outputs(){this.cachedOutputs??=toOutputRefArray(this.componentDef.outputs);return this.cachedOutputs;}/**
      * @param componentDef The component definition.
      * @param ngModule The NgModuleRef to which the factory is bound.
-     */constructor(componentDef,ngModule){super();this.componentDef=componentDef;this.ngModule=ngModule;this.componentType=componentDef.type;this.selector=stringifyCSSSelectorList(componentDef.selectors);this.ngContentSelectors=componentDef.ngContentSelectors??[];this.isBoundToModule=!!ngModule;}create(injector,projectableNodes,rootSelectorOrNode,environmentInjector){profiler(22/* ProfilerEvent.DynamicComponentStart */);const prevConsumer=setActiveConsumer(null);try{const cmpDef=this.componentDef;ngDevMode&&verifyNotAnOrphanComponent(cmpDef);const tAttributes=rootSelectorOrNode?['ng-version','19.2.19']:// Extract attributes and classes from the first selector only to match VE behavior.
+     */constructor(componentDef,ngModule){super();this.componentDef=componentDef;this.ngModule=ngModule;this.componentType=componentDef.type;this.selector=stringifyCSSSelectorList(componentDef.selectors);this.ngContentSelectors=componentDef.ngContentSelectors??[];this.isBoundToModule=!!ngModule;}create(injector,projectableNodes,rootSelectorOrNode,environmentInjector){profiler(22/* ProfilerEvent.DynamicComponentStart */);const prevConsumer=setActiveConsumer(null);try{const cmpDef=this.componentDef;ngDevMode&&verifyNotAnOrphanComponent(cmpDef);const tAttributes=rootSelectorOrNode?['ng-version','19.2.20']:// Extract attributes and classes from the first selector only to match VE behavior.
 extractAttrsAndClassesFromSelector(this.componentDef.selectors[0]);// Create the root view. Uses empty TView and ContentTemplate.
 const rootTView=createTView(0/* TViewType.Root */,null,null,1,0,null,null,null,null,[tAttributes],null);const rootViewInjector=createRootViewInjector(cmpDef,environmentInjector||this.ngModule,injector);const environment=createRootLViewEnvironment(rootViewInjector);const hostRenderer=environment.rendererFactory.createRenderer(null,cmpDef);const hostElement=rootSelectorOrNode?locateHostElement(hostRenderer,rootSelectorOrNode,cmpDef.encapsulation,rootViewInjector):createHostElement(cmpDef,hostRenderer);const rootLView=createLView(null,rootTView,null,512/* LViewFlags.IsRoot */|getInitialLViewFlagsFromDef(cmpDef),null,null,environment,hostRenderer,rootViewInjector,null,retrieveHydrationInfo(hostElement,rootViewInjector,true/* isRootView */));rootLView[HEADER_OFFSET]=hostElement;// rootView is the parent when bootstrapping
 // TODO(misko): it looks like we are entering view here but we don't really need to as
@@ -12683,7 +12687,7 @@ if(ICU_REGEXP.test(message)){throw new Error(`ICU expressions are not supported 
 // the compiler treats static i18n attributes as regular attribute bindings.
 // Since this may not be the first i18n attribute on this element we need to pass in how
 // many previous bindings there have already been.
-generateBindingUpdateOpCodes(updateOpCodes,message,previousElementIndex,attrName,countBindings(updateOpCodes),null);}}tView.data[index]=updateOpCodes;}}/**
+generateBindingUpdateOpCodes(updateOpCodes,message,previousElementIndex,attrName,countBindings(updateOpCodes),SENSITIVE_ATTRS[attrName.toLowerCase()]?_sanitizeUrl:null);}}tView.data[index]=updateOpCodes;}}/**
  * Generate the OpCodes to update the bindings of a string.
  *
  * @param updateOpCodes Place where the update opcodes will be stored.
@@ -12768,7 +12772,7 @@ braces.lastIndex=0;let match;while(match=braces.exec(pattern)){const pos=match.i
 const block=pattern.substring(prevPos,pos);if(ICU_BLOCK_REGEXP.test(block)){results.push(parseICUBlock(block));}else {results.push(block);}prevPos=pos+1;}}else {if(braceStack.length==0){const substring=pattern.substring(prevPos,pos);results.push(substring);prevPos=pos+1;}braceStack.push('{');}}const substring=pattern.substring(prevPos);results.push(substring);return results;}/**
  * Parses a node, its children and its siblings, and generates the mutate & update OpCodes.
  *
- */function parseIcuCase(ast,tView,tIcu,lView,updateOpCodes,parentIdx,caseName,unsafeCaseHtml,nestedIcus){const create=[];const remove=[];const update=[];if(ngDevMode){attachDebugGetter(create,icuCreateOpCodesToString);attachDebugGetter(remove,i18nRemoveOpCodesToString);attachDebugGetter(update,i18nUpdateOpCodesToString);}tIcu.cases.push(caseName);tIcu.create.push(create);tIcu.remove.push(remove);tIcu.update.push(update);const inertBodyHelper=getInertBodyHelper(getDocument());const inertBodyElement=inertBodyHelper.getInertBodyElement(unsafeCaseHtml);ngDevMode&&assertDefined(inertBodyElement,'Unable to generate inert body element');const inertRootNode=getTemplateContent(inertBodyElement)||inertBodyElement;if(inertRootNode){return walkIcuTree(ast,tView,tIcu,lView,updateOpCodes,create,remove,update,inertRootNode,parentIdx,nestedIcus,0);}else {return 0;}}function walkIcuTree(ast,tView,tIcu,lView,sharedUpdateOpCodes,create,remove,update,parentNode,parentIdx,nestedIcus,depth){let bindingMask=0;let currentNode=parentNode.firstChild;while(currentNode){const newIndex=allocExpando(tView,lView,1,null);switch(currentNode.nodeType){case Node.ELEMENT_NODE:const element=currentNode;const tagName=element.tagName.toLowerCase();if(VALID_ELEMENTS.hasOwnProperty(tagName)){addCreateNodeAndAppend(create,ELEMENT_MARKER,tagName,parentIdx,newIndex);tView.data[newIndex]=tagName;const elAttrs=element.attributes;for(let i=0;i<elAttrs.length;i++){const attr=elAttrs.item(i);const lowerAttrName=attr.name.toLowerCase();const hasBinding=!!attr.value.match(BINDING_REGEXP);if(hasBinding){if(VALID_ATTRS.hasOwnProperty(lowerAttrName)){if(URI_ATTRS[lowerAttrName]){generateBindingUpdateOpCodes(update,attr.value,newIndex,attr.name,0,_sanitizeUrl);}else {generateBindingUpdateOpCodes(update,attr.value,newIndex,attr.name,0,null);}}else {ngDevMode&&console.warn(`WARNING: ignoring unsafe attribute value `+`${lowerAttrName} on element ${tagName} `+`(see ${XSS_SECURITY_URL})`);}}else if(VALID_ATTRS[lowerAttrName]){if(URI_ATTRS[lowerAttrName]){// Don't sanitize, because no value is acceptable in sensitive attributes.
+ */function parseIcuCase(ast,tView,tIcu,lView,updateOpCodes,parentIdx,caseName,unsafeCaseHtml,nestedIcus){const create=[];const remove=[];const update=[];if(ngDevMode){attachDebugGetter(create,icuCreateOpCodesToString);attachDebugGetter(remove,i18nRemoveOpCodesToString);attachDebugGetter(update,i18nUpdateOpCodesToString);}tIcu.cases.push(caseName);tIcu.create.push(create);tIcu.remove.push(remove);tIcu.update.push(update);const inertBodyHelper=getInertBodyHelper(getDocument());const inertBodyElement=inertBodyHelper.getInertBodyElement(unsafeCaseHtml);ngDevMode&&assertDefined(inertBodyElement,'Unable to generate inert body element');const inertRootNode=getTemplateContent(inertBodyElement)||inertBodyElement;if(inertRootNode){return walkIcuTree(ast,tView,tIcu,lView,updateOpCodes,create,remove,update,inertRootNode,parentIdx,nestedIcus,0);}else {return 0;}}function walkIcuTree(ast,tView,tIcu,lView,sharedUpdateOpCodes,create,remove,update,parentNode,parentIdx,nestedIcus,depth){let bindingMask=0;let currentNode=parentNode.firstChild;while(currentNode){const newIndex=allocExpando(tView,lView,1,null);switch(currentNode.nodeType){case Node.ELEMENT_NODE:const element=currentNode;const tagName=element.tagName.toLowerCase();if(VALID_ELEMENTS.hasOwnProperty(tagName)){addCreateNodeAndAppend(create,ELEMENT_MARKER,tagName,parentIdx,newIndex);tView.data[newIndex]=tagName;const elAttrs=element.attributes;for(let i=0;i<elAttrs.length;i++){const attr=elAttrs.item(i);const lowerAttrName=attr.name.toLowerCase();const hasBinding=!!attr.value.match(BINDING_REGEXP);if(hasBinding){if(VALID_ATTRS.hasOwnProperty(lowerAttrName)){generateBindingUpdateOpCodes(update,attr.value,newIndex,attr.name,0,SENSITIVE_ATTRS[lowerAttrName]?_sanitizeUrl:null);}else {ngDevMode&&console.warn(`WARNING: ignoring unsafe attribute value `+`${lowerAttrName} on element ${tagName} `+`(see ${XSS_SECURITY_URL})`);}}else if(VALID_ATTRS[lowerAttrName]){if(SENSITIVE_ATTRS[lowerAttrName]){// Don't sanitize, because no value is acceptable in sensitive attributes.
 // Translators are not allowed to create URIs.
 if(typeof ngDevMode!=='undefined'&&ngDevMode){console.warn(`WARNING: ignoring unsafe attribute `+`${lowerAttrName} on element ${tagName} `+`(see ${XSS_SECURITY_URL})`);}addCreateAttribute(create,newIndex,attr.name,'unsafe:blocked');}else {addCreateAttribute(create,newIndex,attr.name,attr.value);}}else {if(typeof ngDevMode!=='undefined'&&ngDevMode){console.warn(`WARNING: ignoring unknown attribute name `+`${lowerAttrName} on element ${tagName} `+`(see ${XSS_SECURITY_URL})`);}}}const elementNode={kind:1/* I18nNodeKind.ELEMENT */,index:newIndex,children:[]};ast.push(elementNode);// Parse the children of this node (if any)
 bindingMask=walkIcuTree(elementNode.children,tView,tIcu,lView,sharedUpdateOpCodes,create,remove,update,currentNode,newIndex,nestedIcus,depth+1)|bindingMask;addRemoveNode(remove,newIndex,depth);}break;case Node.TEXT_NODE:const value=currentNode.textContent||'';const hasBinding=value.match(BINDING_REGEXP);addCreateNodeAndAppend(create,null,hasBinding?'':value,parentIdx,newIndex);addRemoveNode(remove,newIndex,depth);if(hasBinding){bindingMask=generateBindingUpdateOpCodes(update,value,newIndex,null,0,null)|bindingMask;}ast.push({kind:0/* I18nNodeKind.TEXT */,index:newIndex});break;case Node.COMMENT_NODE:// Check if the comment node is a placeholder for a nested ICU
@@ -15103,7 +15107,7 @@ configurable:!!ngDevMode});}function getPipeMetadata(type,meta){return {type:typ
  * @publicApi
  */class Version{full;major;minor;patch;constructor(full){this.full=full;const parts=full.split('.');this.major=parts[0];this.minor=parts[1];this.patch=parts.slice(2).join('.');}}/**
  * @publicApi
- */const VERSION=new Version('19.2.19');/**
+ */const VERSION=new Version('19.2.20');/**
  * Combination of NgModuleFactory and ComponentFactories.
  *
  * @publicApi

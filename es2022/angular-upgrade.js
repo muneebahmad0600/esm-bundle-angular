@@ -1,11 +1,11 @@
-/* esm-bundle - @angular/upgrade@19.2.19 - es format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
+/* esm-bundle - @angular/upgrade@19.2.20 - es format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
 import * as i0 from '@angular/core';
 import { Version, NgZone, ComponentFactoryResolver, Injector, ChangeDetectorRef, Testability, TestabilityRegistry, ApplicationRef, SimpleChange, ɵSIGNAL as _SIGNAL, EventEmitter, Directive, Compiler, NgModule, resolveForwardRef, ElementRef, Inject } from '@angular/core';
 import { __decorate, __metadata } from 'tslib';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 /**
- * @license Angular v19.2.19
+ * @license Angular v19.2.20
  * (c) 2010-2025 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -57,7 +57,7 @@ const REQUIRE_INJECTOR = '?^^' + INJECTOR_KEY;
 const REQUIRE_NG_MODEL = '?ngModel';
 
 /**
- * @license Angular v19.2.19
+ * @license Angular v19.2.20
  * (c) 2010-2025 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -71,7 +71,7 @@ const REQUIRE_NG_MODEL = '?ngModel';
 /**
  * @publicApi
  */
-const VERSION = new Version('19.2.19');
+const VERSION = new Version('19.2.20');
 
 /**
  * A `PropertyBinding` represents a mapping between a property name
@@ -1096,7 +1096,7 @@ function notSupported(name, feature) {
 }
 
 /**
- * @license Angular v19.2.19
+ * @license Angular v19.2.20
  * (c) 2010-2025 Google LLC. https://angular.io/
  * License: MIT
  */

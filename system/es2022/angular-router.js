@@ -1,4 +1,4 @@
-/* esm-bundle - @angular/router@19.2.19 - system format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
+/* esm-bundle - @angular/router@19.2.20 - system format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
 System.register(['@angular/common', '@angular/core', 'rxjs', 'rxjs/operators', '@angular/platform-browser'], (function (exports) {
     'use strict';
     var Location, DOCUMENT, i3, ViewportScroller, HashLocationStrategy, LocationStrategy, PathLocationStrategy, LOCATION_INITIALIZED, i0, Injectable, _RuntimeError, InjectionToken, EventEmitter, input, inject, ViewContainerRef, ChangeDetectorRef, Directive, Output, Input, reflectComponentType, Component, Compiler, NgModuleFactory, EnvironmentInjector, DestroyRef, runInInjectionContext, _Console, _PendingTasksInternal, _isPromise, _isNgModule, isStandalone, _isInjectable, createEnvironmentInjector, NgZone, afterNextRender, __sanitizeUrlOrResourceUrl, booleanAttribute, Attribute, HostListener, HostBinding, Optional, ContentChildren, SkipSelf, NgModule, APP_BOOTSTRAP_LISTENER, _performanceMarkFeature, provideAppInitializer, Injector, ApplicationRef, InjectFlags, makeEnvironmentProviders, ENVIRONMENT_INITIALIZER, Version, combineLatest, of, ConnectableObservable, Subject, from, BehaviorSubject, EMPTY, Subscription, isObservable, concat, defer, throwError, EmptyError, pipe, switchMap, map, tap, finalize, refCount, mergeMap, filter, take, takeUntil, catchError, first, concatMap, scan, defaultIfEmpty, last$1, startWith, takeLast, mergeAll, i1;
@@ -124,7 +124,7 @@ System.register(['@angular/common', '@angular/core', 'rxjs', 'rxjs/operators', '
             });
 
             /**
-             * @license Angular v19.2.19
+             * @license Angular v19.2.20
              * (c) 2010-2025 Google LLC. https://angular.io/
              * License: MIT
              */
@@ -6153,7 +6153,7 @@ System.register(['@angular/common', '@angular/core', 'rxjs', 'rxjs/operators', '
             }
 
             /**
-             * @license Angular v19.2.19
+             * @license Angular v19.2.20
              * (c) 2010-2025 Google LLC. https://angular.io/
              * License: MIT
              */
@@ -7916,7 +7916,7 @@ System.register(['@angular/common', '@angular/core', 'rxjs', 'rxjs/operators', '
             }
 
             /**
-             * @license Angular v19.2.19
+             * @license Angular v19.2.20
              * (c) 2010-2025 Google LLC. https://angular.io/
              * License: MIT
              */
@@ -7991,7 +7991,7 @@ System.register(['@angular/common', '@angular/core', 'rxjs', 'rxjs/operators', '
             /**
              * @publicApi
              */
-            const VERSION = exports("VERSION", new Version('19.2.19'));
+            const VERSION = exports("VERSION", new Version('19.2.20'));
 
         })
     };

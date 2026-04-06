@@ -1,11 +1,11 @@
-/* esm-bundle - @angular/common@19.2.19 - es format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
+/* esm-bundle - @angular/common@19.2.20 - es format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
 import * as i0 from '@angular/core';
 import { InjectionToken, inject, Injectable, Optional, Inject, ɵɵinject as __inject, LOCALE_ID, ɵstringify as _stringify, Directive, Input, createNgModule, NgModuleRef, ɵRuntimeError as _RuntimeError, Host, Attribute, RendererStyleFlags2, ɵisPromise as _isPromise, ɵisSubscribable as _isSubscribable, Pipe, DEFAULT_CURRENCY_CODE, NgModule, ɵgetLocalePluralCase as _getLocalePluralCase, untracked, ɵfindLocaleData as _findLocaleData, ɵLocaleDataIndex as _LocaleDataIndex, ɵgetLocaleCurrencyCode as _getLocaleCurrencyCode, Version, ɵɵdefineInjectable as __defineInjectable, PLATFORM_ID, ɵformatRuntimeError as _formatRuntimeError, ɵIMAGE_CONFIG as _IMAGE_CONFIG, Renderer2, ElementRef, Injector, DestroyRef, ɵperformanceMarkFeature as _performanceMarkFeature, NgZone, ApplicationRef, booleanAttribute, numberAttribute, ɵIMAGE_CONFIG_DEFAULTS as _IMAGE_CONFIG_DEFAULTS, ɵunwrapSafeValue as _unwrapSafeValue, ChangeDetectorRef, ɵregisterLocaleData as _registerLocaleData } from '@angular/core';
 export { ɵIMAGE_CONFIG as IMAGE_CONFIG } from '@angular/core';
 import { Subject } from 'rxjs';
 
 /**
- * @license Angular v19.2.19
+ * @license Angular v19.2.20
  * (c) 2010-2025 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -21,7 +21,7 @@ import { Subject } from 'rxjs';
 const DOCUMENT = new InjectionToken(ngDevMode ? 'DocumentToken' : '');
 
 /**
- * @license Angular v19.2.19
+ * @license Angular v19.2.20
  * (c) 2010-2025 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -700,7 +700,7 @@ function _stripOrigin(baseHref) {
 }
 
 /**
- * @license Angular v19.2.19
+ * @license Angular v19.2.20
  * (c) 2010-2025 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -5674,7 +5674,7 @@ class CommonModule {
 })();
 
 /**
- * @license Angular v19.2.19
+ * @license Angular v19.2.20
  * (c) 2010-2025 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -5715,7 +5715,7 @@ function isPlatformServer(platformId) {
 class XhrFactory {}
 
 /**
- * @license Angular v19.2.19
+ * @license Angular v19.2.20
  * (c) 2010-2025 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -5746,7 +5746,7 @@ class PlatformNavigation {
 })();
 
 /**
- * @license Angular v19.2.19
+ * @license Angular v19.2.20
  * (c) 2010-2025 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -5773,7 +5773,7 @@ function registerLocaleData(data, localeId, extraData) {
 /**
  * @publicApi
  */
-const VERSION = new Version('19.2.19');
+const VERSION = new Version('19.2.20');
 
 /**
  * Defines a scroll position manager. Implemented by `BrowserViewportScroller`.

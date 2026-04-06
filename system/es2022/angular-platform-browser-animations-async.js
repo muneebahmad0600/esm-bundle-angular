@@ -1,4 +1,4 @@
-/* esm-bundle - @angular/platform-browser/animations/async@19.2.19 - system format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
+/* esm-bundle - @angular/platform-browser/animations/async@19.2.20 - system format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
 System.register(['@angular/common', '@angular/core'], (function (exports, module) {
   'use strict';
   var isPlatformServer, DOCUMENT, _getDOM, InjectionToken, _RuntimeError, i0, Injectable, Inject, APP_ID, CSP_NONCE, PLATFORM_ID, Optional, ViewEncapsulation, _TracingService, RendererStyleFlags2, inject, Injector, _ChangeDetectionScheduler, _performanceMarkFeature, makeEnvironmentProviders, NgZone, RendererFactory2, ANIMATION_MODULE_TYPE;
@@ -34,7 +34,7 @@ System.register(['@angular/common', '@angular/core'], (function (exports, module
       exports("provideAnimationsAsync", provideAnimationsAsync);
 
       /**
-       * @license Angular v19.2.19
+       * @license Angular v19.2.20
        * (c) 2010-2025 Google LLC. https://angular.io/
        * License: MIT
        */
@@ -852,7 +852,7 @@ System.register(['@angular/common', '@angular/core'], (function (exports, module
       }
 
       /**
-       * @license Angular v19.2.19
+       * @license Angular v19.2.20
        * (c) 2010-2025 Google LLC. https://angular.io/
        * License: MIT
        */

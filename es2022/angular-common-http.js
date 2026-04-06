@@ -1,11 +1,11 @@
-/* esm-bundle - @angular/common/http@19.2.19 - es format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
+/* esm-bundle - @angular/common/http@19.2.20 - es format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
 import * as i0 from '@angular/core';
 import { InjectionToken, ɵRuntimeError as _RuntimeError, Injectable, inject, NgZone, DestroyRef, ɵPendingTasksInternal as _PendingTasksInternal, PLATFORM_ID, ɵConsole as _Console, ɵformatRuntimeError as _formatRuntimeError, Inject, runInInjectionContext, NgModule, makeEnvironmentProviders, assertInInjectionContext, Injector, ɵResourceImpl as _ResourceImpl, linkedSignal, computed, ResourceStatus, signal, APP_BOOTSTRAP_LISTENER, ɵperformanceMarkFeature as _performanceMarkFeature, ApplicationRef, TransferState, makeStateKey, ɵtruncateMiddle as _truncateMiddle } from '@angular/core';
 import { concatMap, filter, map, finalize, switchMap, tap } from 'rxjs/operators';
 import { of, Observable, from } from 'rxjs';
 
 /**
- * @license Angular v19.2.19
+ * @license Angular v19.2.20
  * (c) 2010-2025 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -38,7 +38,7 @@ function isPlatformServer(platformId) {
 class XhrFactory {}
 
 /**
- * @license Angular v19.2.19
+ * @license Angular v19.2.20
  * (c) 2010-2025 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -54,7 +54,7 @@ class XhrFactory {}
 const DOCUMENT = new InjectionToken(ngDevMode ? 'DocumentToken' : '');
 
 /**
- * @license Angular v19.2.19
+ * @license Angular v19.2.20
  * (c) 2010-2025 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -3108,7 +3108,7 @@ class HttpClientJsonpModule {
 })();
 
 /**
- * @license Angular v19.2.19
+ * @license Angular v19.2.20
  * (c) 2010-2025 Google LLC. https://angular.io/
  * License: MIT
  */

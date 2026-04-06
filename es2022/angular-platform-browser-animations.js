@@ -1,4 +1,4 @@
-/* esm-bundle - @angular/platform-browser/animations@19.2.19 - es format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
+/* esm-bundle - @angular/platform-browser/animations@19.2.20 - es format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
 import * as i0 from '@angular/core';
 import { InjectionToken, ɵRuntimeError as _RuntimeError, Injectable, Inject, APP_ID, CSP_NONCE, PLATFORM_ID, Optional, ViewEncapsulation, ɵTracingService as _TracingService, RendererStyleFlags2, createPlatformFactory, platformCore, PLATFORM_INITIALIZER, ɵINJECTOR_SCOPE as _INJECTOR_SCOPE, ErrorHandler, RendererFactory2, inject, ApplicationModule, ɵTESTABILITY_GETTER as _TESTABILITY_GETTER, NgZone, TestabilityRegistry, Testability, ɵTESTABILITY as _TESTABILITY, NgModule, ɵsetDocument as _setDocument, ɵglobal as _global, ANIMATION_MODULE_TYPE, ɵperformanceMarkFeature as _performanceMarkFeature } from '@angular/core';
 export { ANIMATION_MODULE_TYPE } from '@angular/core';
@@ -7,7 +7,7 @@ import { ɵAnimationEngine as _AnimationEngine, NoopAnimationDriver, AnimationDr
 import { isPlatformServer, DOCUMENT, ɵgetDOM as _getDOM, ɵPLATFORM_BROWSER_ID as _PLATFORM_BROWSER_ID, XhrFactory, CommonModule, ɵDomAdapter as _DomAdapter, ɵsetRootDomAdapter as _setRootDomAdapter, ɵparseCookieValue as _parseCookieValue } from '@angular/common';
 
 /**
- * @license Angular v19.2.19
+ * @license Angular v19.2.20
  * (c) 2010-2025 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -842,7 +842,7 @@ class EmulatedEncapsulationDomRenderer2 extends NoneEncapsulationDomRenderer {
 }
 
 /**
- * @license Angular v19.2.19
+ * @license Angular v19.2.20
  * (c) 2010-2025 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -1323,7 +1323,7 @@ class BrowserModule {
 })();
 
 /**
- * @license Angular v19.2.19
+ * @license Angular v19.2.20
  * (c) 2010-2025 Google LLC. https://angular.io/
  * License: MIT
  */

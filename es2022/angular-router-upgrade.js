@@ -1,4 +1,4 @@
-/* esm-bundle - @angular/router/upgrade@19.2.19 - es format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
+/* esm-bundle - @angular/router/upgrade@19.2.20 - es format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
 import { Location } from '@angular/common';
 import * as i0 from '@angular/core';
 import { Injectable, ɵRuntimeError as _RuntimeError, InjectionToken, EventEmitter, input, inject, ViewContainerRef, ChangeDetectorRef, Directive, Output, Input, reflectComponentType, Component, Compiler, NgModuleFactory, EnvironmentInjector, DestroyRef, runInInjectionContext, ɵConsole as _Console, ɵPendingTasksInternal as _PendingTasksInternal, ɵisPromise as _isPromise, ɵisNgModule as _isNgModule, isStandalone, ɵisInjectable as _isInjectable, createEnvironmentInjector, APP_BOOTSTRAP_LISTENER } from '@angular/core';
@@ -8,7 +8,7 @@ import { switchMap, map, tap, finalize, refCount, mergeMap, filter, take, takeUn
 import * as i1 from '@angular/platform-browser';
 
 /**
- * @license Angular v19.2.19
+ * @license Angular v19.2.20
  * (c) 2010-2025 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -5916,7 +5916,7 @@ function isPublicRouterEvent(e) {
 }
 
 /**
- * @license Angular v19.2.19
+ * @license Angular v19.2.20
  * (c) 2010-2025 Google LLC. https://angular.io/
  * License: MIT
  */

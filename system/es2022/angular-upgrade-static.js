@@ -1,4 +1,4 @@
-/* esm-bundle - @angular/upgrade/static@19.2.19 - system format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
+/* esm-bundle - @angular/upgrade/static@19.2.20 - system format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */
 System.register(['@angular/core', '@angular/platform-browser'], (function (exports) {
     'use strict';
     var Version, _NG_MOD_DEF, NgZone, ComponentFactoryResolver, Injector, ChangeDetectorRef, Testability, TestabilityRegistry, ApplicationRef, SimpleChange, _SIGNAL, EventEmitter, i0, Directive, NgModule, _NOT_FOUND_CHECK_ONLY_ELEMENT_INJECTOR, PlatformRef, platformBrowser;
@@ -37,7 +37,7 @@ System.register(['@angular/core', '@angular/platform-browser'], (function (expor
             });
 
             /**
-             * @license Angular v19.2.19
+             * @license Angular v19.2.20
              * (c) 2010-2025 Google LLC. https://angular.io/
              * License: MIT
              */
@@ -174,7 +174,7 @@ System.register(['@angular/core', '@angular/platform-browser'], (function (expor
             }));
 
             /**
-             * @license Angular v19.2.19
+             * @license Angular v19.2.20
              * (c) 2010-2025 Google LLC. https://angular.io/
              * License: MIT
              */
@@ -188,7 +188,7 @@ System.register(['@angular/core', '@angular/platform-browser'], (function (expor
             /**
              * @publicApi
              */
-            const VERSION = exports("VERSION", new Version('19.2.19'));
+            const VERSION = exports("VERSION", new Version('19.2.20'));
 
             /**
              * A `PropertyBinding` represents a mapping between a property name
@@ -1238,7 +1238,7 @@ System.register(['@angular/core', '@angular/platform-browser'], (function (expor
             }));
 
             /**
-             * @license Angular v19.2.19
+             * @license Angular v19.2.20
              * (c) 2010-2025 Google LLC. https://angular.io/
              * License: MIT
              */
